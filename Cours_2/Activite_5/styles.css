@@ -1,0 +1,35 @@
+* {
+    transition-duration: .5s;
+}
+
+#en-tete {
+    color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.texte-italique {
+    font-style: italic;
+}
+
+.code {
+    border: 2px dashed black;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 1em 2em;
+    max-width: fit-content;
+}
+
+.code::first-line {
+    font-weight: bold;
+}
+
+.code:hover {
+    background-color: white;
+}
+
+.indice {
+    vertical-align: sub;
+    font-size: smaller;
+}

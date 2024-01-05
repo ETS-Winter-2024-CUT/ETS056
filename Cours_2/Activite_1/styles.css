@@ -1,0 +1,28 @@
+p {
+    text-align: center;
+}
+
+#niveau-1 {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+#niveau-2 {
+    font-family: 'Brush Script MT';
+    color: #005500;
+}
+
+#niveau-3 {
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+#niveau-4 {
+    font-family: Garamond;
+    font-style: italic;
+}
+
+#niveau-5 {
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
