@@ -32,12 +32,6 @@ Un exemple de tableau représentant un emploi du temps pour une semaine fictive.
 
 Un formulaire de connexion simple incluant des champs pour l'identifiant et le mot de passe.
 
-## Laboratoire
-
-### [index.html](Semaine%201/Laboratoire/index.html)
-
-Un laboratoire noté reprennant les notions vues ci-dessus en une page HTML représentant des informations de contact, un horaire, des intérêts et un formulaire de contact.
-
 ## Remarque
 
 Les fichiers HTML inclus dans ce cours fournissent des exemples simples pour comprendre les bases de la création de pages web avec HTML. Chaque fichier démontre différents aspects de la structuration des contenus et l'ajout d'éléments interactifs.
