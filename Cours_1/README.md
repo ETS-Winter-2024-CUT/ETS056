@@ -1,6 +1,6 @@
-# Cours de Programmation Web - Semaine 1
+# Cours de Programmation Web - Semaine 1, Cours 1
 
-Ce cours de programmation web à l'ÉTS a couvert les bases de l'HTML à travers divers exemples.
+Ce cours de programmation web à l'ÉTS a couvert les bases de l'**HTML** à travers divers exemples.
 
 ## Contenu du Cours
 
