@@ -13,7 +13,7 @@ Pour participer à ce dépôt, assurez-vous d'être membre de l'équipe "[TCH056
 3. Effectuez les modifications nécessaires.
 4. Créez une demande de tirage (pull request) pour proposer vos changements.
 
-Si vous n'êtes pas encore membre de l'équipe "[TCH056](https://github.com/orgs/ETS-Winter-2024-CUT/teams/tch056)" de l'organisation, rendez-vous sur l'onglet "Teams" de l'organisation pour demander à rejoindre l'équipe.
+Si vous n'êtes pas encore membre de l'équipe "[TCH056](https://github.com/orgs/ETS-Winter-2024-CUT/teams/tch056)" de l'organisation, rendez-vous sur l'onglet "[Teams](https://github.com/orgs/ETS-Winter-2024-CUT/teams)" de l'organisation pour demander à rejoindre l'équipe.
 Si l'approbation prend du temps, vous pouvez également demander de l'aide sur le Discord du CUT.
 
 ## Structure du dépôt
