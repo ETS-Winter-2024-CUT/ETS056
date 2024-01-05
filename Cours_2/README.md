@@ -37,7 +37,7 @@ Dans cette activité, divers sélecteurs CSS ont été appliqués pour sélectio
 Cette activité se concentre sur le style des éléments HTML pour illustrer certaines propriétés CSS.
 
 Dans cette activité :
-- La classe `code` a été modifiée depuis l'[activité 2](###-2.-Activite_2) pour ajouter :
+- La classe `code` a été modifiée depuis l'[activité 2](#2-activite_2) pour ajouter :
     - Un **arrière-plan de couleur gris clair**.
     - Une **arrondi des bords**.
     - Un **remplissage de 1em vertical et 2em horizontal**.
@@ -49,7 +49,7 @@ Cette activité met en œuvre des transitions et des pseudo-éléments pour anim
 
 Dans cette activité :
 - L'étoile (`*`) a été utilisée pour appliquer une **durée de transition de 0.5s à tous les éléments** de la page, offrant une animation fluide lors de tout changement.
-- La classe `code` a été modifiée depuis l'[activité 4](###-4.-Activite_4) pour avoir une **largeur maximale ajustée au contenu**.
+- La classe `code` a été modifiée depuis l'[activité 4](#4-activite_4) pour avoir une **largeur maximale ajustée au contenu**.
   - De plus, le premier élément de ligne dans cette classe (`::first-line`) est **en gras**.
   - Lorsque survolée, la classe `code` change son **arrière-plan en blanc** pour donner un effet de survol.
 
