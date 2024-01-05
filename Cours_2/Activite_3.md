@@ -1,5 +1,4 @@
 ## Activité 3: [CSS Diner](https://flukeout.github.io/)
-Bien sûr, voici une description de chaque point de sélection CSS dans le fichier Markdown :
 
 ### 01. Select the plates
 Sélectionne tous les éléments `<plate>`.
