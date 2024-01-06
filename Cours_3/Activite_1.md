@@ -1,7 +1,5 @@
 ## Activité 1: [FLEXBOX FROGGY](https://flexboxfroggy.com/#fr)
 
-<!-- TODO: Mettre les `conteneur`s en italique -->
-
 ### 01. Guidez la grenouille vers le nénuphar à droite
 Alignement horizontal des éléments enfants à l'intérieur de leur conteneur en les plaçant à l'extrémité droite du conteneur.
 ```css
