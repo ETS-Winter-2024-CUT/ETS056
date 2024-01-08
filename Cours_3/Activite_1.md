@@ -155,6 +155,6 @@ align-content: space-between;
 flex-flow: column-reverse wrap-reverse;
 justify-content: center;
 ```
-- `align-content: space-between;` répartis l'espace disponible de manière égale entre les lignes d'éléments, en plaçant le premier élément au début et le dernier élément à la fin de chaque ligne, tout en laissant un espace égal entre chaque ligne d'éléments à l'intérieur du conteneur.
-- `flex-flow: column-reverse wrap-reverse;` organise les éléments verticalement de bas en haut et autorise les éléments à passer à la ligne suivante si nécessaire, les empilant de haut en bas et de droite à gauche.
-- `justify-content: center;` centre horizontalement les éléments à l'intérieur de chaque ligne d'éléments, assurant qu'ils soient alignés au centre de la ligne.
+- `align-content: space-between;` répartit l'espace équitablement entre les lignes d'éléments, plaçant le premier à gauche et le dernier à droite de chaque ligne, tout en laissant un espace uniforme entre les lignes.
+- `flex-flow: column-reverse wrap-reverse;` empile les éléments de haut en bas et de droite à gauche, permettant aux éléments de passer à la ligne suivante si nécessaire.
+- `justify-content: center;` centre horizontalement les éléments à l'intérieur du conteneur.
