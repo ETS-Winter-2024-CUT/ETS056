@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours 3 - Activité 4 - Exemple de mise en page</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contenant {
+            display: grid;
+            grid-template-areas: "a a a a a"
+                "b c c c d"
+                "e e e e e";
+            grid-template-columns: repeat(5, 20%);
+            grid-template-rows: 20% 60% 20%;
+            height: 75%;
+            width: 75%;
+        }
+
+        .item {
+            display: flex;
+            background-color: lightgray;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        #a {
+            grid-area: a;
+        }
+
+        #b {
+            grid-area: b;
+        }
+
+        #c {
+            grid-area: c;
+        }
+
+        #d {
+            grid-area: d;
+        }
+
+        #e {
+            grid-area: e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenant">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
+        <div class="item" id="d">D</div>
+        <div class="item" id="e">E</div>
+    </div>
+</body>
+
+</html>
