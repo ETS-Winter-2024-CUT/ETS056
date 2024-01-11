@@ -1,0 +1,50 @@
+
+.item { 
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+}
+
+/* Alignement horizontal avec flex-direction (par défaut) */
+.contenant-1 { 
+    display: flex;
+    border: 1px dashed black;
+    flex-direction: row;
+}
+
+/* Alignement vertical avec flex-direction */
+.contenant-2 { 
+    display: flex;
+    border: 1px dashed black;
+    flex-direction: column;
+}
+
+
+/* Alignement vers le fond du main-axis avec justify-content et flex-end */
+.contenant-3 { 
+    display: flex;
+    border: 1px dashed black;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ /* Alignement sur le fond du cross-axis avec align-items et flex-end */
+.contenant-4 { 
+    display: flex;
+    border: 1px dashed black;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+ /* Alignement sur le fond du cross-axis avec align-items et flex-end */
+ .contenant-5 { 
+    display: flex;
+    border: 1px dashed black;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
