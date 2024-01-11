@@ -1,4 +1,4 @@
-## Activité 1: [FLEXBOX FROGGY](https://flexboxfroggy.com/#fr)
+## Activité 3: [FLEXBOX FROGGY](https://flexboxfroggy.com/#fr)
 
 ### 01. Guidez la grenouille vers le nénuphar à droite
 Aligne horizontalement les éléments à l'extrémité droite du conteneur.
