@@ -5,6 +5,7 @@ Ce dernier est égal à `false` par défaut.
 Pour faire cela il faut trier en ordre croissant et utiliser la méthode reverse() à la fin *si nécessaire* :
 
 > Pseudo-code :
+>
 > ```python
 > procédure triSelection(tableau t)
 > n ← longueur(t)
@@ -19,6 +20,7 @@ Pour faire cela il faut trier en ordre croissant et utiliser la méthode reverse
 > ```
 
 Implémentation en Javascript :
+
 ```js
 function triSelection(tab, reverse=false) {
     const NB_ELEMENTS = tab.length;
