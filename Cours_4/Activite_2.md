@@ -1,5 +1,4 @@
-## Activité 2: [Fonctions Javascript](https://www.programiz.com/javascript/online-compiler/)
-
+## Activité 2: [Boucles en Javascript](https://www.programiz.com/javascript/online-compiler/)
 
 1. Écrire une fonction nommée `doubleFactorielle` qui reçoit un entier  et qui retourne la double factorielle de ce dernier :
 

@@ -1,4 +1,4 @@
-## Activité 1: [Fonctions Javascript](https://www.programiz.com/javascript/online-compiler/)
+## Activité 1: [Fonctions en Javascript](https://www.programiz.com/javascript/online-compiler/)
 
 1. Écrire une fonction qui génère un entier aléatoire entre une borne inférieure et une borne supérieure dont la signature est la suivante en utilisant la librairie ***Math*** :
 
