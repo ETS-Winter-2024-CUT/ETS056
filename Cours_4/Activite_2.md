@@ -29,16 +29,15 @@ function saisirEntierEntrebornes(borneInf, borneSup) {
     const MAX_TRIES = 10;
     let tries = 0;
 
-    do {
+    while (tries < MAX_TRIES) {
         let value = prompt(`Entrez une valeur comprise entre ${borneInf} et ${borneSup}`);
 
-        if (value >= borneInf && value <= borneSup) {
+        if (value >= borneInf && value <= borneSup)
             return value;
-        }
-        else {
-            console.log("Valeur incorrecte!");
-        }
-    } while (tries < MAX_TRIES);
+
+        console.log("Valeur incorrecte!");
+        tries++;
+    }
 
     return null;
 }
