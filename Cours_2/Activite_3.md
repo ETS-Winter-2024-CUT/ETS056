@@ -1,4 +1,4 @@
-## Activité 3: [CSS Diner](https://flukeout.github.io/)
+## Cours 2 - Activité 3: [CSS Diner](https://flukeout.github.io/)
 
 ### 01. Select the plates
 Sélectionne tous les éléments `<plate>`.
