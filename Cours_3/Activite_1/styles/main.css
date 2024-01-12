@@ -1,0 +1,106 @@
+/* Balises génerales */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif, monospace;
+    font-size: x-large;
+    height: 70vh;
+    max-width: 1000px;
+    background-color: black;
+}
+
+header,
+footer {
+    margin: 3em 0;
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: lightseagreen;
+}
+
+button[type="reset"] {
+    background-color: coral;
+}
+
+/* Ovnis */
+#cover {
+    position: relative;
+}
+
+#cover img {
+    position: absolute;
+    display: block;
+}
+
+.ovni:hover {
+    cursor: pointer;
+}
+
+#petit-ovni {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+    top: 10px;
+    left: 100px;
+    opacity: 40%;
+}
+
+#moyen-ovni {
+    width: 150px;
+    height: 150px;
+    opacity: 70%;
+    z-index: 1;
+    top: 75px;
+    left: 10px;
+}
+
+#grand-ovni {
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    top: 100px;
+    left: 100px;
+}
+
+/* Formulaire */
+#panneau-formulaire {
+    margin-left: 50%;
+    background-color: lightgray;
+    border-radius: 15px;
+    max-width: 300px;
+    display: block;
+}
+
+#formulaire {
+    padding: 1em;
+}
+
+#formulaire>* {
+    display: block;
+}
+
+#formulaire button {
+    padding: 1em;
+    border-radius: 15px;
+    border: none;
+    display: inline-flex;
+}
+
+#formulaire input {
+    padding: 1em;
+    margin-bottom: 2em;
+    width: 85%;
+}
+
+/* Autres */
+#en-tete {
+    text-transform: uppercase;
+}
