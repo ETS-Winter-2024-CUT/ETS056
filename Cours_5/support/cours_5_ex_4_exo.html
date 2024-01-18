@@ -28,26 +28,7 @@
 <body>
     <button id="btn-ajouter">Ajouter bloc</button>
     <div id="panneau-principal"></div>
-    <script>
-        $(document).ready(function () {
-
-            // Créer le nouveau élément
-            let nouveauDiv = $("<div class='bloc rouge'></div>");
-
-            // Ajouter le nouveau élément
-            $("#btn-ajouter").click(function () {
-                $("#panneau-principal").append(nouveauDiv.clone());
-            });
-
-            let nbBlocSupprimer = 0;
-            $("#panneau-principal").on("click", ".bloc", function () {
-                $(this)[0].remove();
-                alert(`Vous avez supprimé ${++nbBlocSupprimer} blocs`);
-            });
-
-
-        });
-    </script>
+    <script></script>
 </body>
 
 </html>
