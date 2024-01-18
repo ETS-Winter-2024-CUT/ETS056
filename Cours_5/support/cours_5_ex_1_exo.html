@@ -10,21 +10,7 @@
     <p>[7, 9, 1, 0, 4]</p>
     <p>[9, 1, 9, 2, 5]</p>
     <p>[1, 5, 3, 6, 4]</p>
-    <script>
-        // Mesurer le temps d'exécution de la solution alternative
-        console.time("Solution alternative");
-
-        $(document).ready(() => {
-            $("p").each((_, paragraphe) => {
-                let texte = paragraphe.innerText;
-                let somme = eval(texte.replace(/,/g, "+"));
-                paragraphe.innerText = `Somme(${texte}) = ${somme}`;
-            });
-        });
-
-        console.timeEnd("Solution alternative");
-
-    </script>
+    <script></script>
 </body>
 
 </html>
