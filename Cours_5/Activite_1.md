@@ -26,7 +26,7 @@ $(document).ready(() => {
     }
 });
 ```
-> 0.129150390625 ms
+> Temps d'execution: 0.129150390625 ms
 
 Solution alternative :
 
@@ -46,4 +46,4 @@ $(document).ready(() => {
     });
 });
 ```
-> 0.12890625 ms
+> Temps d'execution: 0.12890625 ms
