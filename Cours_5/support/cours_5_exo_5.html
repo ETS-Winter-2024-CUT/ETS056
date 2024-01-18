@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #panneau-principal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .bloc {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .bleu {
+            background-color: blue;
+        }
+
+        .rouge {
+            background-color: red;
+        }
+
+        #contenant {
+            display: flex;
+            width: 75%;
+            justify-content: space-around;
+        }
+
+        #compteur-rouge {
+            background-color: red;
+            color: white;
+            width: 50px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        #compteur-bleu {
+            background-color: blue;
+            color: white;
+            width: 50px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenant">
+        <button id="btn-ajouter">Ajouter bloc</button>
+        <div id="compteur-rouge">0</div>
+        <div id="compteur-bleu">0</div>
+    </div>
+    <div id="panneau-principal"></div>
+    <script></script>
+</body>
+
+</html>
