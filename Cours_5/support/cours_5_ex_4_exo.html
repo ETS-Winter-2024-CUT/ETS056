@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #panneau-principal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .bloc {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .rouge {
+            background-color: red;
+        }
+
+        .bleu {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn-ajouter">Ajouter bloc</button>
+    <div id="panneau-principal"></div>
+    <script>
+        $(document).ready(function () {
+
+            // Créer le nouveau élément
+            let nouveauDiv = $("<div class='bloc rouge'></div>");
+
+            // Ajouter le nouveau élément
+            $("#btn-ajouter").click(function () {
+                $("#panneau-principal").append(nouveauDiv.clone());
+            });
+
+            let nbBlocSupprimer = 0;
+            $("#panneau-principal").on("click", ".bloc", function () {
+                $(this)[0].remove();
+                alert(`Vous avez supprimé ${++nbBlocSupprimer} blocs`);
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>
