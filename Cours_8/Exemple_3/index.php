@@ -41,7 +41,7 @@
 
     </form>
 
-    <iframe></iframe>
+    <iframe name="resultat"></iframe>
 
 </body>
 
