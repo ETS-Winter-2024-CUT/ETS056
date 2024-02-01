@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='', initial-scale=1.0">
-    <title>Cours 8 - Exemple 3</title>
+    <title>TCH056 - Cours 8 - Exemple 3</title>
 
     <style>
         label,
@@ -33,7 +33,7 @@
         <input type="text" name="nom" placeholder="Entrez votre nom" required>
 
         <label for="age">Age</label>
-        <input type="text" name="age" placeholder="Entrez votre age" required>
+        <input type="number" name="age" placeholder="Entrez votre age" required>
 
         <button type="submit">Soumettre</button>
     </form>
