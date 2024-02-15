@@ -22,6 +22,21 @@ Si l'approbation prend du temps, vous pouvez également demander de l'aide sur l
 
 N'hésitez pas à explorer, contribuer et utiliser ces exemples pour approfondir vos connaissances en programmation web !
 
+## Commandes utiles
+
+Pour executer un fichier PHP, utiliser la commande :
+
+```sh
+php fichier/a_executer.php
+```
+
+Pour generer une page web a partir d'un fichier PHP (*index.php*):
+
+```sh
+cd chemin/du/dossier/parent
+php -S localhost:1234
+```
+
 ---
 
 **Note :** Assurez-vous de respecter les règles de contribution et de bien documenter vos ajouts/modifications pour faciliter la collaboration.
