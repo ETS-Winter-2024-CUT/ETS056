@@ -6,7 +6,7 @@
 
 ```js
 function genererEntierEntreBornes(borneInf, borneSup) {
-    if (borneInf  borneSup) {
+    if (borneInf > borneSup) {
         throw new Error('Borne supérieure est plus petite que la borne inférieure.');
     }
 
