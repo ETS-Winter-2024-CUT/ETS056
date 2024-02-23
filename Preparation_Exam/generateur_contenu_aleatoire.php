@@ -27,7 +27,7 @@ $mots = array(
 );
 
 // Générer un nombre aléatoire de mots entre 500 et 800
-$nb_mots = rand($N_MIN, $N_MAX);
+$nb_mots = rand(N_MIN, N_MAX);
 
 for ($i = 0; $i < $nb_mots; $i++) {
     echo $mots[rand(0, count($mots))] . " ";
