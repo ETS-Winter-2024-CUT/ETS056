@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations personnelles</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="calcul_imc.php" method="GET" target="resultFrame">
+        <label for="taille">Entrez votre taille (cm) :</label>
+        <input type="number" name="taille" autofocus required>
+
+        <label for="poids">Entrez votre poids (kg) :</label>
+        <input type="number" name="poids" required>
+
+        <button type="submit">Calculer!</button>
+    </form>
+
+    <iframe name="resultFrame" frameborder="0"></iframe>
+</body>
+
+</html>
