@@ -16,17 +16,17 @@
 </head>
 
 <body>
-    <form action="calcul_imc.php" method="GET" target="resultFrame">
+    <form action="calcul_imc.php" method="GET" target="resultat">
         <label for="taille">Entrez votre taille (cm) :</label>
-        <input type="number" name="taille" autofocus required>
+        <input type="number" name="taille" autofocus required placeholder="Ex: 185">
 
         <label for="poids">Entrez votre poids (kg) :</label>
-        <input type="number" name="poids" required>
+        <input type="number" name="poids" required placeholder="Ex:  85">
 
-        <button type="submit">Calculer!</button>
+        <button type="submit"> Calculer IMC</button>
     </form>
 
-    <iframe name="resultFrame" frameborder="0"></iframe>
+    <iframe name="resultat" frameborder="0"></iframe>
 </body>
 
 </html>
